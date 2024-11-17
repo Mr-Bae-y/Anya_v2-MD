@@ -8,7 +8,7 @@ module.exports = {
     /**
      * bot details and parameters
      */
-    botname: process.env.BotName || "Qᴜᴇᴇɴ ᴀɴʏᴀ ᴠ2",
+    botname: process.env.BotName || "Mr-Dracula🌚🌙",
     footer: process.env.Footer || "© 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐐𝐮𝐞𝐞𝐧 𝐀𝐧𝐲𝐚 𝐁𝐨𝐭",
     prefa: process.env.Prefix || "-",
     themeemoji: process.env.ThemeEmoji || "🎐",
@@ -23,14 +23,14 @@ module.exports = {
     /**
      * other details and parameters
      */
-    author: process.env.Author || "𝐏𝐢𝐤𝐚𝐁𝐨𝐭𝐳 🌚🌙",
-    packname: process.env.PackName || "𝕼𝖚𝖊𝖊𝖓 𝕬𝖓𝖞𝖆 𝖁2 𝕾𝖙𝖎𝖈𝖐𝖊𝖗 𝕻𝖆𝖈𝖐 🪀",
+    author: process.env.Author || "Mr-Dracula🌚🌙",
+    packname: process.env.PackName || "Your-Bae🪀",
     socialLink: process.env.Web || "https://github.com/PikaBotz",
     groupLink: process.env.GcLink || "https://chat.whatsapp.com/E490r0wSpSr89XkCWeGtnX",
     warns: Number(process.env.Warn_Limits) || 3,
     cooldown: Number(process.env.Cooldown_Timer_Seconds) || 5, // default cooldown time per command in seconds
     mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
-    sessionId: process.env.SESSION_ID || "YOUR_SESSION_ID",
+    sessionId: process.env.SESSION_ID |Zokou-MD-WHATSAPP-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSUxSZHpqRFRuRndzMG91L2t6TTdqVXliSDNTU3laNytXMVkxeTRtcTkwaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUmRVWndwOWh3OXVuaC9uYXVyd0pXRm5UeW1QVTN3Mms3SzY2OVVHOEFFZz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJZRFZzR0R3Z2tEdi9FS2d1UlFPMDE0c3JGakxWTTJxUi9WMEdWN3p1clZFPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ6akpVaUJmSDFLcGYvdy80YTJzOC9VUkR1L1FpWGNHWXF0MDhLbFgzcDNBPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImdGK3JRbHZtbXVRLzVML0VOVWxReFB1L1NTSC9SRm56akRYZjVlUENhbFE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkphWGpNRnE5eEZCNElTdG9POWY3N3VjSjdGTlRLRFNtQm5sTFhyd0pPbVk9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiK01JM0FJbFFnQ2RDRWd6cHFacnRMRko1U1U2MENvNmkxL0RJTDArL0xuTT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiemphU3UxZ3FpbjMyNXppUzUxdFdwSHJrVVc3WnpYa012MGpyV2ZEYWF4ND0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjF2VEc3enZUNTIzRW1UKzJWaWNySEN3ek9tNXJpZExaVzFnYUh5bFlIbE0xOUI3RzllTXZnTFFSNW0vWE94NDV6YU14MGd3S1IyMGdmdXp1TitrRGdBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjM2LCJhZHZTZWNyZXRLZXkiOiJHNUR6TEgvWVREZWJHZWJhQ2YvczdkRzRxMk5GZVRjWllwZ1JERlhKWGlnPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjEsImFjY291bnRTeW5jQ291bnRlciI6MCwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoiZ19zMldSY2VRdldMTXIzZ2dYNWJ2dyIsInBob25lSWQiOiJlYzY5YjRhYy1iYjY3LTRlYzEtOWFmOS01YTNlN2QyNTc0YjciLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZ1VKRTZ3OVNRZnBXTkRSUi9ZTC9WbXZndjQ4PSJ9LCJyZWdpc3RlcmVkIjp0cnVlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik44aTdvdHMrbDU3Q0lwSGZXcDlWUXVuZWRYYz0ifSwicmVnaXN0cmF0aW9uIjp7fSwicGFpcmluZ0NvZGUiOiJITU5UQlROSCIsIm1lIjp7ImlkIjoiNTA5NDA5OTM5MDE6MTZAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoi8J2VuPCdlobwnZaX8J2Wm/CdlorwnZaT8J2WmCDwnZaR8J2WiiDwnZab8J2WisyB8J2Wl/Cdlo7wnZaZ8J2WhvCdlofwnZaR8J2WiiDwnZaK8J2Wk/CdlojwnZaN8J2WhvCdlpPwnZaZ8J2WivCdlprwnZaXIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNLTFB5WWdHRUlyVTQ3a0dHQUVnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJxV2xwVHJwVjBBZ2U2SkpPWEczTm5CazBaT2dUd1d3MXVzb0ZSSUlJRTBFPSIsImFjY291bnRTaWduYXR1cmUiOiJLUFpIRFA3OXZucVRFQnBUbUdxL1dKaERwVERiTkZ4SlZiZUFPNVhOSUoxS1YrSDdKYXNHMVRKbGlRajYyVGVUb0tlcnByR3hkMkdlNU9NNWhaSWlEZz09IiwiZGV2aWNlU2lnbmF0dXJlIjoieERZSVNlNHhVVjBGTWpxeC9EWFRaWmxDOEVkUFdYZHBXeFNaanNNcUROUHZxYnE1QjZZR2NkdWUycEZnNUVocy9ZWkduNmdpRndScGFrTkpHbU9iaFE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiI1MDk0MDk5MzkwMToxNkBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJhbHBhVTY2VmRBSUh1aVNUbHh0elp3Wk5HVG9FOEZzTmJyS0JVU0NDQk5CIn19XSwicGxhdGZvcm0iOiJzbWJhIn0=| "YOUR_SESSION_ID",
 
     /**
      * thumbnails and medias
